@@ -1,0 +1,86 @@
+nav {
+    list-style: none;
+    display: inline-block;
+    padding-top: 25px;
+}
+
+li:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+div {
+    background-color: rgb(42, 79, 111);
+}
+
+li>a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+
+.copyright {
+    padding-bottom: 35px;
+    color: white;
+    text-align: center;
+}
+
+.nav1 {
+    margin-left: 200px;
+}
+
+.nav2 {
+    margin-left: 305px;
+}
+
+.nav3 {
+    display: inline-flex;
+    gap: 20px;
+    vertical-align: super;
+    padding-left: 200px;
+}
+
+.nav3>li>img {
+    width: 40px;
+}
+
+.facebook {
+    width: 40px;
+    height: 40px;
+    background-image: url(icons/fb_gray.png);
+    background-size: contain;
+}
+
+.facebook:hover {
+    background-image: url(icons/fb.png);
+}
+
+.instagram {
+    width: 40px;
+    height: 40px;
+    background-image: url(icons/insta_gray.png);
+    background-size: contain;
+}
+
+.instagram:hover {
+    background-image: url(icons/insta.png);
+}
+
+.youtube {
+    width: 40px;
+    height: 40px;
+    background-image: url(icons/youtube_gray.png);
+    background-size: contain;
+}
+
+.youtube:hover {
+    background-image: url(icons/youtube.png);
+}
+
+hr {
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-top: 35px;
+}
